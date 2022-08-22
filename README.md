@@ -1,6 +1,6 @@
 # parkrun-5k-analysis
 
-Code for tracking progress on challenges associated with your free, weekly timed, 5k in the park!
+Code for tracking progress on challenges associated with your free, weekly, timed 5k in the park!
 
 
 ## [Alphabet Bingo](https://github.com/martin-kerr/parkrun-5k-analysis/blob/main/alphabet-bingo.py)
