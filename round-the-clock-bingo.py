@@ -1,4 +1,4 @@
-from datetime import datetime as dt
+from datetime import datetime
 import pandas as pd
 
 #construct test DataFrame 
@@ -32,14 +32,14 @@ df['Seconds'] = pd.to_numeric(df['Seconds'])#converted to numeric format
 #make dictionary of occurrences of each second
 sec_counts={}
 for s in range(60):    
-     sec_counts[s] = ((df['Seconds'].values==s).sum())
+    sec_counts[s] = ((df['Seconds'].values==s).sum())
 
 #iterate through occurrences dictionary and add to list of completed or needed
 for s in sec_counts:
     if sec_counts[s]==0 :
-    	seconds_needed.append(s)
+        seconds_needed.append(s)
     else:
-    	seconds_completed.append(s)
+        seconds_completed.append(s)
 
 #print total parkruns
 print(len(df),"parkruns completed")
