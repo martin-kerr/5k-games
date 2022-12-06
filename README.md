@@ -10,3 +10,5 @@ Simply copy the 'All Results' table (including column headers) from your parkrun
 
 ## [Stopwatch Bingo](https://github.com/martin-kerr/parkrun-5k-analysis/blob/main/stopwatch-bingo.py)
 Looks at all finish times and ignores 'minutes' to output how many unique 'seconds' have been completed. Again input is the 'All Results' table (including column headers) copied to clipboard. Outputs a bar graph showing counts of each second and text box underneath denoting total runs, seconds completed and seconds needed
+![image](https://user-images.githubusercontent.com/50867224/205971586-569c73a8-88df-4a24-8259-5c8d484906c4.png)
+
