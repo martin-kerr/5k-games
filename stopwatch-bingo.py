@@ -47,7 +47,7 @@ str_secs_needed=",".join(str(i) for i in seconds_needed)
 if no_secs_needed < 30:
     caption=f'{pr_completed} parkruns completed\n\n{no_secs_completed} seconds completed\n\n {no_secs_needed} seconds needed: {str_secs_needed}'
 else:
-    caption=caption=f'{pr_completed} parkruns completed\n\n{no_secs_completed} seconds completed: {str_secs_completed}\n\n {no_secs_needed} seconds needed'
+    caption=f'{pr_completed} parkruns completed\n\n{no_secs_completed} seconds completed: {str_secs_completed}\n\n {no_secs_needed} seconds needed'
 
 #create fig and axes
 fig = plt.figure()
