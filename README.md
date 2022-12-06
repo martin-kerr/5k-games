@@ -8,5 +8,5 @@ Find out how many letters of the alphabet you've collected from the first letter
 
 Simply copy the 'All Results' table (including column headers) from your parkrun profile page and the program will read the clipboard when run and then output the list of events you've attended as well as the letters collected and needed.
 
-## [Round the Clock Bingo](https://github.com/martin-kerr/parkrun-5k-analysis/blob/main/round-the-clock-bingo.py)
-Looks at all finish times and ignores 'minutes' to output how many unique 'seconds' have been completed. Again input is the 'All Results' table (including column headers) copied to clipboard
+## [Stopwatch Bingo](https://github.com/martin-kerr/parkrun-5k-analysis/blob/main/stopwatch-bingo.py)
+Looks at all finish times and ignores 'minutes' to output how many unique 'seconds' have been completed. Again input is the 'All Results' table (including column headers) copied to clipboard. Outputs a bar graph showing counts of each second and text box underneath denoting total runs, seconds completed and seconds needed
